@@ -1,70 +1,61 @@
-# Getting Started with Create React App
+# 🏀 NBA Top Shot — Pack Opening Experience Prototype
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**By:** Chuck Howard  
+**Submission for:** *Dapper Labs Frontend Engineering Exercise*
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🎯 Overview
 
-### `npm start`
+This prototype demonstrates a reimagined **Pack Opening experience** for NBA Top Shot.  
+It aims to deliver an exciting, visually engaging, and user-centric flow that reflects the delight and anticipation of collectible pack openings.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Built with:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **React**
+- **Styled-components**
+- **Phosphor-react icons**
+- **react-confetti**
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🔥 Key Features
 
-### `npm run build`
+✅ **Cover → Play → Reveal Flow**  
+Users hover to reveal a **Play Video** button. Upon clicking, the pack video plays **with audio**, enhancing the anticipation. An **Open Pack** button then appears to reveal the player.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+✅ **Dynamic Flip Animation**  
+Once opened, the card flips dynamically and stays revealed even after returning to the main pack selection screen.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+✅ **Confetti Celebration**  
+A confetti animation plays continuously while the player card is shown, creating a rewarding visual moment.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+✅ **Sound Effects**  
+Audio is incorporated into both video playback and card reveal to amplify engagement (browser autoplay restrictions respected).
 
-### `npm run eject`
+✅ **Responsive Design**  
+The interface scales gracefully for mobile and desktop screen sizes.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+✅ **Clean, Modern UI**  
+All visual elements (backgrounds, card designs, and iconography) were selected to be consistent with NBA Top Shot’s style, with thoughtful animations and transitions.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🗂 Folder Structure
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```plaintext
+src/
+  components/
+    PackCover.jsx
+    PlayerCardReveal.jsx
+    PackOpener.jsx
+  images/
+    player1.png
+    player2.png
+    ...
+  videos/
+    player1video.mp4
+    ...
+public/
+  sounds/
+    card-flip.m4a
