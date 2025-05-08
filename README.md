@@ -59,3 +59,28 @@ src/
 public/
   sounds/
     card-flip.m4a
+
+---
+
+## 🚀 Getting Started
+
+### 📝 Prerequisites
+
+Make sure you have the following installed:
+
+- **Node.js** (v16 or higher recommended)
+- **npm** (comes with Node.js)
+
+---
+
+### 🔄 Cloning the repository
+
+```bash
+git clone https://github.com/chulps/nba-topshot-pack-opening.git
+cd nba-topshot-pack-opening
+npm install
+npm start
+```
+
+This will start the development server and open the app in your default web browser at:
+[http://localhost:3000](http://localhost:3000)
