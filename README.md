@@ -59,6 +59,7 @@ src/
 public/
   sounds/
     card-flip.m4a
+```
 
 ---
 
@@ -81,6 +82,7 @@ cd nba-topshot-pack-opening
 npm install
 npm start
 ```
+
 
 This will start the development server and open the app in your default web browser at:
 [http://localhost:3000](http://localhost:3000)
