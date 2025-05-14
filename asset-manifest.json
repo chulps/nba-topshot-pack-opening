@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/nba-topshot-pack-opening/static/css/main.ea970ac6.css",
+    "main.js": "/nba-topshot-pack-opening/static/js/main.919fe9af.js",
+    "static/js/453.dc9ac2a4.chunk.js": "/nba-topshot-pack-opening/static/js/453.dc9ac2a4.chunk.js",
+    "static/media/player3video.mp4": "/nba-topshot-pack-opening/static/media/player3video.487731ca163ebe9eae5f.mp4",
+    "static/media/player1video.mp4": "/nba-topshot-pack-opening/static/media/player1video.3d4d424aaeac001d00c0.mp4",
+    "static/media/player2video.mp4": "/nba-topshot-pack-opening/static/media/player2video.63a9f152c04c415afa8e.mp4",
+    "static/media/player4video.mp4": "/nba-topshot-pack-opening/static/media/player4video.603826320dc5ccb749ff.mp4",
+    "static/media/background.png": "/nba-topshot-pack-opening/static/media/background.4c2b5b321a6da1386c94.png",
+    "static/media/player3cover.png": "/nba-topshot-pack-opening/static/media/player3cover.72f41783d2ff67068bda.png",
+    "static/media/player4cover.png": "/nba-topshot-pack-opening/static/media/player4cover.4a282b734e08f2f97fca.png",
+    "static/media/player1cover.png": "/nba-topshot-pack-opening/static/media/player1cover.a49b2a131e14234a1f31.png",
+    "static/media/gems.png": "/nba-topshot-pack-opening/static/media/gems.94bdbc03834e24e61d9b.png",
+    "static/media/player2cover.png": "/nba-topshot-pack-opening/static/media/player2cover.ab2dce0b3a79ee631e91.png",
+    "static/media/player4.png": "/nba-topshot-pack-opening/static/media/player4.7daebec0dc33511b3a6a.png",
+    "static/media/player3.png": "/nba-topshot-pack-opening/static/media/player3.b831a426f2c353f4b958.png",
+    "static/media/player2.png": "/nba-topshot-pack-opening/static/media/player2.3a071ded7049097ce9fb.png",
+    "static/media/player1.png": "/nba-topshot-pack-opening/static/media/player1.cea438d7c95ba8699891.png",
+    "static/media/logo.png": "/nba-topshot-pack-opening/static/media/logo.f14682a6c7dee1426e1c.png",
+    "index.html": "/nba-topshot-pack-opening/index.html",
+    "main.ea970ac6.css.map": "/nba-topshot-pack-opening/static/css/main.ea970ac6.css.map",
+    "main.919fe9af.js.map": "/nba-topshot-pack-opening/static/js/main.919fe9af.js.map",
+    "453.dc9ac2a4.chunk.js.map": "/nba-topshot-pack-opening/static/js/453.dc9ac2a4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ea970ac6.css",
+    "static/js/main.919fe9af.js"
+  ]
+}
